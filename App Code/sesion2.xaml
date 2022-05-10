@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="myapp.sesion2">
+    <ContentPage.Content>
+        <Frame
+            VerticalOptions="FillAndExpand"
+               Margin="20"
+               CornerRadius="20"
+               BackgroundColor="#212121"
+               HasShadow="False">
+
+            <StackLayout>
+                <Label x:Name="lbl_titulo2"
+                       Text="Sesion"
+                       TextColor="White"
+                       FontSize="40"
+                       Margin="5,0,10,10"
+                       FontAttributes="Bold">
+
+                </Label>
+
+                <Frame
+                    VerticalOptions="FillAndExpand"
+                    Margin="10,90,1,90"
+                    CornerRadius="20"
+                    BackgroundColor="DarkCyan"
+                    HasShadow="False">
+                    <StackLayout>
+                        
+                        
+                    </StackLayout>
+                    
+                </Frame>
+                
+                <Grid Margin="20,0,20,0">
+                    <Button x:Name="btn_eliminar"   
+                     BackgroundColor="Red"
+                     HeightRequest="55" WidthRequest="220" HorizontalOptions="Center"
+                     Text="Eliminar registro"
+                FontSize="Medium"
+               
+                CornerRadius="10"
+                TextColor="White"
+                Padding="8"
+                BorderWidth="1"/>
+                </Grid>
+
+               
+            </StackLayout>
+        </Frame>
+     
+      
+    </ContentPage.Content>
+</ContentPage>
