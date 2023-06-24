@@ -13,4 +13,4 @@
 
   
 <h5> Gracias por visitar</h5># myapp
-Codigo principales xaml  y cs de la actiivdad de desarrollo de software
+
